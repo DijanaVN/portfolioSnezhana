@@ -15,7 +15,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="row row-cols-1  g-5 ">
+    <div className="row row-cols-1   ">
       {projects.map((project, index) => (
         <ProjectsCard key={index} {...project} />
       ))}

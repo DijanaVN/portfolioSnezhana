@@ -139,14 +139,14 @@ const Contact = () => {
             <div className="contact-text">+389 71 621 388</div>
           </div>{" "}
           <div className="d-flex align-items-center mb-3 contact-item">
-            <IoMdMail
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="2000"
-              color="pink"
-              className="me-2"
-            />
             <div className="contact-text">
+              <IoMdMail
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="2000"
+                color="pink"
+                className="me-2"
+              />
               <a target="_blank" href="mailto: snezana_kacaniklik@yahoo.com">
                 snezana_kacaniklik@yahoo.com
               </a>

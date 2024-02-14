@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
-import img17 from "../assets/images/CertificateOfCompletion_Learning Jira Cloud Edition.webp";
-import img18 from "../assets/images/CertificateOfCompletion_Learning Jira Software.webp";
+import img17 from "../assets/images/sertificat1.jpg";
+
 import CertificateGrid from "./CertificateGrid";
 
 const Certificates = () => {
@@ -13,7 +13,7 @@ const Certificates = () => {
     objectFit: "cover",
   };
 
-  const certificateImages = [img17, img18];
+  const certificateImages = [img17];
 
   return (
     <>
