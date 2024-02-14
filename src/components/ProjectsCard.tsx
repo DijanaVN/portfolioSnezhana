@@ -6,7 +6,6 @@ interface ProjectProp {
   img: string;
   description?: string;
   siteLink: string;
-  githubLink: string;
   color: string;
 }
 const ProjectCard = ({
@@ -14,7 +13,6 @@ const ProjectCard = ({
   img,
   description,
   siteLink,
-  githubLink,
   color,
 }: ProjectProp) => (
   <div className="col mt-xxl-5 ">
@@ -43,14 +41,6 @@ const ProjectCard = ({
             target="_blank"
           >
             {`${title.split("-")[0]}-Site`}
-          </a>
-          <a
-            href={githubLink}
-            rel="noopener"
-            className={`btn btn-${color} text-font-size-btn-project fw-semibold`}
-            target="_blank"
-          >
-            GitHub-Link
           </a>
         </div>
       </div>

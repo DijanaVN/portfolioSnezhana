@@ -126,7 +126,7 @@ const Contact = () => {
               color="yellow"
               className="me-2"
             />
-            <div className="contact-text">Dijana Veljanoska Nikoloska</div>
+            <div className="contact-text">Snezhana Kachaniklik</div>
           </div>
           <div className="d-flex align-items-center mb-3 contact-item">
             <PiPhoneCallFill
@@ -136,7 +136,7 @@ const Contact = () => {
               color="lightblue"
               className="me-2"
             />
-            <div className="contact-text">+389 71 994 724</div>
+            <div className="contact-text">+389 71 621 388</div>
           </div>{" "}
           <div className="d-flex align-items-center mb-3 contact-item">
             <IoMdMail
@@ -147,8 +147,8 @@ const Contact = () => {
               className="me-2"
             />
             <div className="contact-text">
-              <a target="_blank" href="mailto:veljanovskadijana@yahoo.com">
-                veljanovskadijana@yahoo.com
+              <a target="_blank" href="mailto: snezana_kacaniklik@yahoo.com">
+                snezana_kacaniklik@yahoo.com
               </a>
             </div>
           </div>
