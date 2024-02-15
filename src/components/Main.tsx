@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "../assets/images/sneze.jpg";
+import img2 from "../assets/images/cv-slika.webp";
 import { TypingAnimation } from "./TypingMotion";
 import { GrLinkedin } from "react-icons/gr";
 import { IoMdMail } from "react-icons/io";

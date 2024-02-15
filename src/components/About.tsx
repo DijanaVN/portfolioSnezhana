@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-import img1 from "../assets/images/10504830_905126586167977_8147501472344378857_o.jpg";
+import img1 from "../assets/images/cv-slika.webp";
 import img2 from "../assets/images/1488204_10152105470004181_2141946011_n.webp";
 import img3 from "../assets/images/nordwood-themes-ubIWo074QlU-unsplash.webp";
 import img4 from "../assets/images/gabriel-heinzer-EUzk9BIEq6M-unsplash.webp";
