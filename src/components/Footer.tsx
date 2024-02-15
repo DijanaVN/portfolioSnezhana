@@ -2,7 +2,7 @@ import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { GrLinkedin } from "react-icons/gr";
 import { IoMdMail } from "react-icons/io";
-import img from "../assets/images/logo dvn.webp";
+import img from "../assets/images/SK Designs Logo@72x.webp";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -18,29 +18,15 @@ const Footer = () => {
           <img
             className="bd-placeholder-img object-fit-cover border rounded"
             src={img}
-            alt="DijanaVN Logo"
+            alt="Snezhana Logo"
             style={{ height: "4.8vw", margin: "5px" }}
           />
         </Link>
       </div>
       <p className="mb-0 right-reserved text-wrap right-reserved">
-        &copy; 2023 DijanaVN. All Rights Reserved.
+        &copy; 2024 SK Designs. All Rights Reserved.
       </p>
       <div className="d-flex align-items-center">
-        <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="1000"
-          style={iconStyle}
-        >
-          <a
-            href="https://github.com/DijanaVN?tab=repositories"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <BsGithub color="yellow" />
-          </a>
-        </div>
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
@@ -48,7 +34,7 @@ const Footer = () => {
           style={iconStyle}
         >
           <a
-            href="https://www.linkedin.com/in/dijana-veljanoska-nikoloska-05679487/"
+            href="https://www.linkedin.com/in/snezhana-kachaniklik-bb7576220/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -61,7 +47,7 @@ const Footer = () => {
           data-aos-duration="3000"
           style={iconStyle}
         >
-          <a href="mailto:veljanovskadijana@yahoo.com">
+          <a href="mailto:snezana_kacaniklik@yahoo.com">
             <IoMdMail color="yellow" />
           </a>
         </div>
