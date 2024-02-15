@@ -49,7 +49,7 @@ const Contact = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="container  contact text-white  ">
+    <div className="container  contact text-dark  ">
       <div className="container contact-start  ">
         <h2 data-aos="fade-up">Contact Me</h2>
         <TypingAnimation text="Feel free to reach out. I'm always open to new opportunities and collaborations."></TypingAnimation>
@@ -109,21 +109,21 @@ const Contact = () => {
             <button
               type="submit"
               value={"Send"}
-              className="btn btn-primary rounded-pill  mt-3"
+              className="btn btn-success rounded-pill  mt-3"
             >
               Send Message
             </button>
           </form>
         </div>
 
-        <div className="col-md-6 text-white ps-5 ">
+        <div className="col-md-6 text-dark ps-5 ">
           <h4 className="mb-4 mt-4">Contact Information</h4>
           <div className="d-flex align-items-center mb-3 contact-item">
             <BsFillPersonFill
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1200"
-              color="yellow"
+              color="orangered"
               className="me-2"
             />
             <div className="contact-text">Snezhana Kachaniklik</div>
@@ -133,7 +133,7 @@ const Contact = () => {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500"
-              color="lightblue"
+              color="royalblue"
               className="me-2"
             />
             <div className="contact-text">+389 71 621 388</div>
@@ -144,7 +144,7 @@ const Contact = () => {
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="2000"
-                color="pink"
+                color="mediumorchid "
                 className="me-2"
               />
               <a target="_blank" href="mailto: snezana_kacaniklik@yahoo.com">
@@ -157,7 +157,7 @@ const Contact = () => {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="2500"
-              color="lightgreen"
+              color="seagreen"
               className="me-2"
             />
             <div className="contact-text"> Skopje, Macedonia</div>

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Main from "../components/Main";
 import NavBar from "../components/NavBar";
-import img from "../assets/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg";
+import img from "../assets/images/rosebackground.webp";
 import About from "../components/About";
 import ScrollToTopButton from "./../components/ScrollToTheTopButton";
 import Projects from "./../components/Projects";
@@ -20,7 +20,7 @@ const HomePage = () => {
 
   const backgroundStyle = {
     backgroundImage: `url(${img})`,
-    backgroundSize: "cover",
+    backgroundSize: "contain",
     minHeight: "100vh",
   };
   return (
@@ -29,7 +29,7 @@ const HomePage = () => {
         <Main />
       </div>
       <div
-        className="text-center text-white fonts  mb-5 fs-1 lh-lg "
+        className="text-center text-dark fonts  mb-5 fs-1 lh-lg "
         ref={aboutRef}
       >
         {inViewportAbout && <TypingAnimation text={" ABOUT SECTION"} />}
@@ -38,7 +38,7 @@ const HomePage = () => {
         <About />
       </div>
       <div
-        className="text-center text-white fonts pt-5 pb-5 mb-5 fs-1 lh-lg"
+        className="text-center text-dark fonts pt-5 pb-5 mb-5 fs-1 lh-lg"
         ref={projectsRef}
       >
         {inViewportProjects && <TypingAnimation text={" PROJECTS"} />}
@@ -48,7 +48,7 @@ const HomePage = () => {
       </div>
 
       <div
-        className="text-center text-white fonts mt-5 pt-5 fs-1 lh-lg "
+        className="text-center text-dark fonts mt-5 pt-5 fs-1 lh-lg "
         ref={contactRef}
       >
         {inViewportContact && <TypingAnimation text={" CONTACT ME"} />}

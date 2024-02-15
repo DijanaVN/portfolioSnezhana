@@ -27,28 +27,18 @@ const Footer = () => {
         &copy; 2024 SK Designs. All Rights Reserved.
       </p>
       <div className="d-flex align-items-center">
-        <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="2000"
-          style={iconStyle}
-        >
+        <div style={iconStyle}>
           <a
             href="https://www.linkedin.com/in/snezhana-kachaniklik-bb7576220/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GrLinkedin color="yellow" />
+            <GrLinkedin color="gray" />
           </a>
         </div>
-        <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
-          style={iconStyle}
-        >
+        <div style={iconStyle}>
           <a href="mailto:snezana_kacaniklik@yahoo.com">
-            <IoMdMail color="yellow" />
+            <IoMdMail color="gray" />
           </a>
         </div>
       </div>

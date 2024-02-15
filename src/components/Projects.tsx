@@ -1,4 +1,4 @@
-import img from "../assets/images/project1.png";
+import img from "../assets/images/project1.webp";
 import img1 from "../assets/images/wines (1).webp";
 
 import ProjectsCard from "./ProjectsCard";

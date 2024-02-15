@@ -13,11 +13,11 @@ const Main = () => {
   };
 
   const frameStyle = {
-    background: "linear-gradient(to bottom, gray, black)",
+    background: "linear-gradient(to bottom, lavenderblush, mistyrose)",
     padding: "1vw",
     borderRadius: "10px",
     height: "100%",
-    opacity: 0.8,
+    opacity: 0.9,
   };
 
   const iconStyle = {
@@ -39,7 +39,7 @@ const Main = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <GrLinkedin color="yellow" />
+              <GrLinkedin color="gray" />
             </a>
           </div>
           <div
@@ -48,11 +48,11 @@ const Main = () => {
             style={iconStyle}
           >
             <a href="mailto: snezana_kacaniklik@yahoo.com">
-              <IoMdMail color="yellow" />
+              <IoMdMail color="gray" />
             </a>
           </div>
         </div>
-        <div className="col-6 text-light fonts ms-md-5 lh-lg  text-wrap main-text">
+        <div className="col-6 text-dark fonts ms-md-5 lh-lg  text-wrap main-text">
           <TypingAnimation
             text={" Hello there! I'm Snezhana, your UI/UX designer."}
           ></TypingAnimation>

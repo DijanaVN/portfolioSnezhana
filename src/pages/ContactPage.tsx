@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import img from "../assets/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg";
+import img from "../assets/images/watercolorspink.webp";
 import Contact from "./../components/Contact";
 import ScrollToTopButton from "./../components/ScrollToTheTopButton";
 

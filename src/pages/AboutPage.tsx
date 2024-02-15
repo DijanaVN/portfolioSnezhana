@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import img from "../assets/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg";
+import img from "../assets/images/watercolorspink.webp";
 import About from "./../components/About";
 import ScrollToTopButton from "./../components/ScrollToTheTopButton";
 
@@ -9,7 +9,7 @@ const AboutPage = () => {
   }, []);
   const backgroundStyle = {
     backgroundImage: `url(${img})`,
-    backgroundSize: "cover",
+    backgroundSize: "contain",
     minHeight: "100vh",
   };
   return (
