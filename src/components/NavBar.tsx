@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img from "../assets/images/logo dvn.webp";
+import img from "../assets/images/SK Designs Logo@72x.webp";
 import { motion } from "framer-motion";
 import { Hover } from "./HoverMotion";
 import { Navbar, Nav } from "react-bootstrap";
@@ -22,7 +22,6 @@ const NavBar = () => {
             src={img}
             className="bd-placeholder-img logo-sign object-fit-cover border rounded"
             alt="Logo DijanaVN"
-          
           />
         </Link>
       </motion.div>{" "}

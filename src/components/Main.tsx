@@ -2,7 +2,6 @@ import React from "react";
 import img2 from "../assets/images/sneze.jpg";
 import { TypingAnimation } from "./TypingMotion";
 import { GrLinkedin } from "react-icons/gr";
-import { BsGithub } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 
 const Main = () => {

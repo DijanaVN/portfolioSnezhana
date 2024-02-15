@@ -23,11 +23,7 @@ const ProjectCard = ({
     >
       <div className="p-2 h-100">
         <a href={siteLink} target="_blank" rel="noopener noreferrer">
-          <img
-            src={img}
-            className="card-img-top object-fit-cover"
-            alt={`image of ${title}`}
-          />
+          <img src={img} className="card-img-top " alt={`image of ${title}`} />
         </a>
       </div>
       <div className="card-body d-flex flex-column justify-content-between">

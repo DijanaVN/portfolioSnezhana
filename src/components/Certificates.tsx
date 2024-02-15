@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 import img17 from "../assets/images/sertificat1.jpg";
-
 import CertificateGrid from "./CertificateGrid";
 
 const Certificates = () => {
