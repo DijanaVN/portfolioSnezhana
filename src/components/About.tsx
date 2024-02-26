@@ -16,13 +16,13 @@ const About = () => {
   const cardData = [
     {
       title: "About Me:",
-      text: "Thank you for taking the time to explore my portfolio. Your visit is greatly appreciated. Within the upcoming pages, you'll get a glimpse into my passion, work principles, projects,  career path, and education. ",
+      text: "I am Snezhana and I can find a creative user friendly solution for your digital product that can turn your idea into reality. I am a creative soul that graduated in telecommunication engineering, has working experience in sales and passion for UX/UI Design, Graphic Design and Art. Scroll down to find out more about me and my work. ",
       link: "/certificates",
       img: img1,
     },
     {
       title: "Strategic Career Evolution:",
-      text: "napishi si text",
+      text: "Having nine years of experience in sales for international company with diverse demographics has enabled me to have better understanding of the human behaviors and users needs, which also he­­lped me to develop my problem solving and user centric mindset. I am also very detail oriented and I like to get to the heart of the problems, find simplified and beautiful creative solutions.",
       link: "/cv",
       img: img2,
     },

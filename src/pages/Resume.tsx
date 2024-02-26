@@ -6,9 +6,9 @@ const CV = () => {
   }, []);
 
   const documentURL =
-    "https://drive.google.com/file/d/1ti9R58ECNeeen9G-QF22-Gu961k54sr_/preview";
+    "https://drive.google.com/file/d/1ydw7ctpc00KzPo6dty1RLGf9TZD8xBDN/preview";
 
-  return (
+  https: return (
     <>
       <div className=" text-center">
         <div className="ratio ratio-1x1">

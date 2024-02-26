@@ -1,12 +1,12 @@
 import React from "react";
-import img2 from "../assets/images/cv-slika.webp";
+import img2 from "../assets/images/Portfolio-Hero-Photo-SK.webp";
 import { TypingAnimation } from "./TypingMotion";
 import { GrLinkedin } from "react-icons/gr";
 import { IoMdMail } from "react-icons/io";
 
 const Main = () => {
   const mainStyle = {
-    background: `url(${img2}) no-repeat right center/25% auto`,
+    background: `url(${img2}) no-repeat right center/50% auto`,
     display: "flex",
     alignItems: "center",
     opacity: 1,
@@ -54,7 +54,7 @@ const Main = () => {
         </div>
         <div className="col-6 text-dark fonts ms-md-5 lh-lg  text-wrap main-text">
           <TypingAnimation
-            text={" Hello there! I'm Snezhana, your UI/UX designer."}
+            text={" Hello there! Are you looking for UX/UI DESIGNER?"}
           ></TypingAnimation>
         </div>
       </div>
