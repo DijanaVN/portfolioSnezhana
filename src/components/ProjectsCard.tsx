@@ -36,7 +36,7 @@ const ProjectCard = ({
             rel="noopener"
             target="_blank"
           >
-            {`${title.split("-")[0]}-Site`}
+            {`${title.split("-")[0]}-Link`}
           </a>
         </div>
       </div>
