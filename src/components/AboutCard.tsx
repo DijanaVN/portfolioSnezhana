@@ -38,8 +38,8 @@ const AboutCard = ({
             alt={title}
             style={{
               width: "100%",
-              height: "auto",
-              objectFit: "cover",
+              height: "80%",
+              objectFit: "contain",
             }}
           />
         </div>

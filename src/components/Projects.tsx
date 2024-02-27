@@ -12,8 +12,6 @@ const Projects = () => {
       description: "napishi si text za tuka",
       siteLink:
         "https://www.figma.com/proto/sFGyrAxVRizGYO86xyHYGi/V1-HWS-Mobile-First?node-id=27-117&starting-point-node-id=27%3A117",
-
-      color: "danger",
     },
     {
       title: "Giftcards.mk-Project",
@@ -21,8 +19,6 @@ const Projects = () => {
       description: "napishi si text za tuka",
       siteLink:
         "https://www.figma.com/proto/cjzWuTTVKBqP4KaXAvcpLL/Redesign-giftcards.mk?node-id=34-5605&starting-point-node-id=34%3A5605&scaling=scale-down",
-
-      color: "success",
     },
     {
       title: "Graphic Design, Illustration & Art",
@@ -30,16 +26,14 @@ const Projects = () => {
       description: "napishi si text za tuka",
       siteLink:
         "https://www.figma.com/proto/PkACjXAlYuMbMxZaIH5Hud/Illustrations-%26-Art?node-id=0-1",
-
-      color: "danger",
     },
   ];
   return (
-    <div className="row row-cols-1 row-cols-md-2 g-5  ">
+    <div className="row row-cols-1 row-cols-md-2  ">
       {projects.map((project, index) => (
         <div
           key={index}
-          className={`col-md-6 col-lg-6${
+          className={`row row-cols-1   g-4  ${
             index === projects.length - 1 && projects.length % 2 !== 0
               ? " offset-md-3 offset-lg-3"
               : ""

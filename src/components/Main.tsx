@@ -1,15 +1,17 @@
 import React from "react";
-import img2 from "../assets/images/Portfolio-Hero-Photo-SK.webp";
+import img2 from "../assets/images/SK_Portfolio_Photo.webp";
 import { TypingAnimation } from "./TypingMotion";
 import { GrLinkedin } from "react-icons/gr";
 import { IoMdMail } from "react-icons/io";
 
 const Main = () => {
   const mainStyle = {
-    background: `url(${img2}) no-repeat right center/50% auto`,
+    background: `url(${img2}) no-repeat right center/100% `,
+    backgroundSize: "contain",
     display: "flex",
     alignItems: "center",
     opacity: 1,
+    animation: "zoom-in 5s",
   };
 
   const frameStyle = {
@@ -17,7 +19,7 @@ const Main = () => {
     padding: "1vw",
     borderRadius: "10px",
     height: "100%",
-    opacity: 0.9,
+    opacity: 0.8,
   };
 
   const iconStyle = {

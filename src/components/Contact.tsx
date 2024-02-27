@@ -109,7 +109,7 @@ const Contact = () => {
             <button
               type="submit"
               value={"Send"}
-              className="btn btn-success rounded-pill  mt-3"
+              className="btn custom-blue-button   mt-3"
             >
               Send Message
             </button>
@@ -123,7 +123,7 @@ const Contact = () => {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1200"
-              color="orangered"
+              color="gray"
               className="me-2"
             />
             <div className="contact-text">Snezhana Kachaniklik</div>
@@ -133,7 +133,7 @@ const Contact = () => {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500"
-              color="royalblue"
+              color="gray"
               className="me-2"
             />
             <div className="contact-text">+389 71 621 388</div>
@@ -144,7 +144,7 @@ const Contact = () => {
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="2000"
-                color="mediumorchid "
+                color="gray "
                 className="me-2"
               />
               <a target="_blank" href="mailto: snezana_kacaniklik@yahoo.com">
@@ -157,7 +157,7 @@ const Contact = () => {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="2500"
-              color="seagreen"
+              color="gray"
               className="me-2"
             />
             <div className="contact-text"> Skopje, Macedonia</div>

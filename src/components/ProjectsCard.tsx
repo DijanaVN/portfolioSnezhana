@@ -6,20 +6,13 @@ interface ProjectProp {
   img: string;
   description?: string;
   siteLink: string;
-  color: string;
 }
-const ProjectCard = ({
-  title,
-  img,
-  description,
-  siteLink,
-  color,
-}: ProjectProp) => (
-  <div className="col mt-xxl-5 ">
+const ProjectCard = ({ title, img, description, siteLink }: ProjectProp) => (
+  <div className="col mt-xxl-5">
     <div
       data-aos="zoom-in"
       data-aos-duration="1500"
-      className={`card h-100 text-bg-light p-2 text-black`}
+      className={`card h-100 text-bg-light p-2 text-black  `}
     >
       <div className="p-2 h-100">
         <a href={siteLink} target="_blank" rel="noopener noreferrer">
@@ -32,7 +25,7 @@ const ProjectCard = ({
         <div className="d-flex justify-content-between ps-xl-5 pe-xl-5">
           <a
             href={siteLink}
-            className={`btn btn-${color} text-font-size-btn-project fw-semibold`}
+            className={`btn custom-blue-button text-font-size-btn-project fw-semibold`}
             rel="noopener"
             target="_blank"
           >

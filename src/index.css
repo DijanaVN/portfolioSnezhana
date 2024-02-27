@@ -17,12 +17,12 @@
   color: black;
   text-align: center;
 }
-.main-text {
+/* .main-text {
   font-size: 3.3vw;
   background-color: rgba(0, 0, 0, 0.1);
   padding-left: 20px;
   box-shadow: 0.3em 0.3em 1em 1em rgba(0, 0, 0, 0.1);
-}
+} */
 .main-padding {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -39,11 +39,11 @@
 .text-font-size-des {
   font-size: 1rem;
 }
-.text-shadow-main {
+/* .text-shadow-main {
   background-color: "rgba(0, 0, 0, 0.1)";
   padding-left: "1vw";
   box-shadow: "0.3em 0.3em 1em 1em rgba(0, 0, 0, 0.1)";
-}
+} */
 
 .navbar-toggler-icon {
   font-size: 1rem;
@@ -97,9 +97,9 @@
   }
   .main-text {
     font-size: 2vw;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     padding-left: 20px;
-    box-shadow: 0.3em 0.3em 1em 1em rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0.3em 0.3em 1em 1em rgba(0, 0, 0, 0.1); */
   }
   .text-font-size-des {
     font-size: 1.5rem;
@@ -115,4 +115,21 @@
   width: 100%;
   height: 50vw;
   object-fit: cover;
+}
+.custom-blue-button {
+  background-color: #5f9ea0; /* Your custom blue color */
+  color: #ffffff; /* Text color */
+}
+
+.custom-blue-button:hover {
+  background-color: #407a7c; /* Darker shade of blue on hover */
+  color: #ffffff; /* Text color */
+}
+@keyframes zoom-in {
+  from {
+    transform: scale(1.2); /* Initial scale */
+  }
+  to {
+    transform: scale(1); /* Zoomed scale */
+  }
 }
