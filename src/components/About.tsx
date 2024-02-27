@@ -21,14 +21,16 @@ const About = () => {
       img: img1,
     },
     {
-      title: "Strategic Career Evolution:",
+      title: "Career Evolution:",
       text: "Having nine years of experience in sales for international company with diverse demographics has enabled me to have better understanding of the human behaviors and users needs, which also he­­lped me to develop my problem solving and user centric mindset. I am also very detail oriented and I like to get to the heart of the problems, find simplified and beautiful creative solutions.",
       link: "/cv",
       img: img2,
     },
     {
-      title: "Skills Expansion: Journey into UI/UX",
-      text: "napisi si text",
+      title: "Journey into UI/UX Design",
+      text: "My journey as UX/UI designer started with a spark of curiosity and a passion for creating intuitive digital experiences for the users.",
+      text1:
+        "My quest for knowledge led me to complete UX/UI Academy and various design courses, serving as crucial milestones in my professional development, and helped me to gain proficiency in essential tools such as Ai, XD, Figma, and Photoshop, UX design research and iterative design process. I also remain dedicated to refining and continuously upgrading my knowledge and skills.",
       link: "/projects",
       img: img3,
     },
@@ -39,12 +41,16 @@ const About = () => {
     },
     {
       title: "My Ideal Working Environment:",
-      list: ["napisi si text."],
+      list: [
+        "Fostering a culture of friendly teamwork and open communication to nurture creativity and innovation.",
+        "Cultivating a positive atmosphere that inspires motivation, alongside resources that amplify productivity and effectiveness.",
+        "Offering mentorship and avenues for professional growth and development.",
+      ],
       img: img5,
     },
     {
       title: "Let's Connect:",
-      text: "I am open to new challenges and eager to make a meaningful impact. If you are looking for a dedicated and motivated team member or have exciting projects where I can contribute, please feel free to reach out.",
+      text: "I enthusiastically welcome new challenges and strive to make a meaningful impact. Whether you're seeking a dedicated and motivated team member or have exciting projects where I can contribute, I'm ready and eager to collaborate. Please don't hesitate to contact me.",
       link: "/contact",
       img: img6,
     },

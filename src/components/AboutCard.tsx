@@ -4,13 +4,22 @@ import { Link } from "react-router-dom";
 interface AboutProp {
   title: string;
   text?: string;
+  text1?: string;
   list?: string[];
   link?: string;
   img: string;
   index: number;
 }
 
-const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
+const AboutCard = ({
+  title,
+  text,
+  list,
+  link,
+  img,
+  index,
+  text1,
+}: AboutProp) => (
   <div className="row p-3 p-sm-5 ">
     <div
       className="card mb-3"
@@ -42,9 +51,14 @@ const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
           <div className="card-body">
             <p className="card-title text-font-size fw-bold">{title}</p>
             {text && (
-              <p className="card-text text-start fw-semibold ps-md-5 mt-3 mb-3 lh-lg text-font-size-des  ">
-                {text}
-              </p>
+              <div>
+                <p className="card-text text-start fw-semibold ps-md-5 mt-3 mb-3 lh-lg text-font-size-des  ">
+                  {text}
+                </p>
+                <p className="card-text text-start fw-semibold ps-md-5 mt-3 mb-3 lh-lg text-font-size-des  ">
+                  {text1}
+                </p>
+              </div>
             )}
             {list && (
               <ul className="list-group fw-semibold list-group-flush text-font-size-des ps-md-5 mt-3 mb-3 lh-lg  ">
@@ -61,11 +75,9 @@ const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
                   ? "Contact link"
                   : title.includes("About Me")
                   ? "Certificates"
-                  : title.includes("Strategic Career Evolution")
+                  : title.includes("Career Evolution")
                   ? "My Resume"
-                  : title.includes(
-                      "Skills Expansion: Journey into Web Development with React"
-                    )
+                  : title.includes("Journey into UI/UX Design")
                   ? "My Projects"
                   : ""}
               </a>
