@@ -8,19 +8,19 @@ const Projects = () => {
   const projects = [
     {
       title: "Heavenly Wines-Project",
-      img: img,
+      img: img1,
       description: "napishi si text za tuka",
       siteLink:
-        "https://www.figma.com/proto/cjzWuTTVKBqP4KaXAvcpLL/Redesign-giftcards.mk?node-id=34-5605&starting-point-node-id=34%3A5605&scaling=scale-down",
+        "https://www.figma.com/proto/sFGyrAxVRizGYO86xyHYGi/V1-HWS-Mobile-First?node-id=27-117&starting-point-node-id=27%3A117",
 
       color: "danger",
     },
     {
       title: "Giftcards.mk-Project",
-      img: img1,
+      img: img,
       description: "napishi si text za tuka",
       siteLink:
-        "https://www.figma.com/proto/sFGyrAxVRizGYO86xyHYGi/V1-HWS-Mobile-First?node-id=27-117&starting-point-node-id=27%3A117",
+        "https://www.figma.com/proto/cjzWuTTVKBqP4KaXAvcpLL/Redesign-giftcards.mk?node-id=34-5605&starting-point-node-id=34%3A5605&scaling=scale-down",
 
       color: "success",
     },
