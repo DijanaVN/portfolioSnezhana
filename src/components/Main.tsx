@@ -6,7 +6,7 @@ import { IoMdMail } from "react-icons/io";
 
 const Main = () => {
   const mainStyle = {
-    background: `url(${img2}) no-repeat right center/100% `,
+    background: `url(${img2}) no-repeat right center/ 45%`,
     backgroundSize: "contain",
     display: "flex",
     alignItems: "center",

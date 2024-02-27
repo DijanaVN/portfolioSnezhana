@@ -102,7 +102,7 @@
     /* box-shadow: 0.3em 0.3em 1em 1em rgba(0, 0, 0, 0.1); */
   }
   .text-font-size-des {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .text-font-size-btn {
     font-size: 2rem;
@@ -117,12 +117,12 @@
   object-fit: cover;
 }
 .custom-blue-button {
-  background-color: #5f9ea0; /* Your custom blue color */
+  background-color: #407a7c; /* Your custom blue color */
   color: #ffffff; /* Text color */
 }
 
 .custom-blue-button:hover {
-  background-color: #407a7c; /* Darker shade of blue on hover */
+  background-color: #5f9ea0; /* Darker shade of blue on hover */
   color: #ffffff; /* Text color */
 }
 @keyframes zoom-in {
@@ -131,5 +131,25 @@
   }
   to {
     transform: scale(1); /* Zoomed scale */
+  }
+}
+@media (max-width: 768px) {
+  .container-fluid.img-height {
+    background-size: 30%;
+  }
+
+  .main-text {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .container-fluid.img-height {
+    background-size: 20%;
+  }
+
+  .main-text {
+    font-size: 8px;
+    margin-left: 10px;
   }
 }

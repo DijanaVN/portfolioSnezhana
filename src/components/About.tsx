@@ -1,9 +1,9 @@
 import React from "react";
 import { useEffect } from "react";
 import img1 from "../assets/images/cv-slika.webp";
-import img2 from "../assets/images/1488204_10152105470004181_2141946011_n.webp";
+import img2 from "../assets/images/20240218_000844.webp";
 import img3 from "../assets/images/nordwood-themes-ubIWo074QlU-unsplash.webp";
-import img4 from "../assets/images/gabriel-heinzer-EUzk9BIEq6M-unsplash.webp";
+import img4 from "../assets/images/ux journey section illustration.webp";
 import img5 from "../assets/images/israel-andrade-YI_9SivVt_s-unsplash.webp";
 import img6 from "../assets/images/firmbee-com-SpVHcbuKi6E-unsplash.webp";
 import AboutCard from "./AboutCard";
@@ -36,7 +36,15 @@ const About = () => {
     },
     {
       title: "What I Offer:",
-      list: ["💡 skills.", "🛠️ skills.", "🤝 skills.", "🌟 skills."],
+      list: [
+        "* User-Centered design for intuitive interfaces that prioritize user needs and behaviors.",
+        "* Prototyping and wireframing with tools like Adobe XD, Ai, Ps and Figma, and to create interactive prototypes for rapid iteration and user testing.",
+        "* Applying design principles such as typography, color, layout composition and Gestalt principles to create appealing and functional visual designs.",
+        "* Conducting usability tests to gather valuable feedback and insights for refining and improving designs.",
+        "* Effective team play, communication and collaboration for successful project outcomes.",
+        "* Analytical and problem-solving skills, with the ability to identify user pain points and find solutions for them.",
+        "* Quick learner and adaptable to new tools, technologies, and design trends.",
+      ],
       img: img4,
     },
     {
