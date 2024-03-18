@@ -1,5 +1,5 @@
-import img from "../assets/images/project1.webp";
-import img1 from "../assets/images/wines (1).webp";
+import img from "../assets/images/Giftcards mk@72x.webp";
+import img1 from "../assets/images/HWShop@72x (1).webp";
 import img2 from "../assets/images/Snezana-Art.png";
 
 import ProjectsCard from "./ProjectsCard";
@@ -7,23 +7,23 @@ import ProjectsCard from "./ProjectsCard";
 const Projects = () => {
   const projects = [
     {
-      title: "Heavenly Wines-Project",
+      title: "Online wine shop mobile version",
       img: img1,
-      description: "napishi si text za tuka",
+      description: "",
       siteLink:
         "https://www.figma.com/proto/sFGyrAxVRizGYO86xyHYGi/V1-HWS-Mobile-First?node-id=27-117&starting-point-node-id=27%3A117",
     },
     {
-      title: "Giftcards.mk-Project",
+      title: "Desktop version redesign of giftcard.mk site",
       img: img,
-      description: "napishi si text za tuka",
+      description: "",
       siteLink:
         "https://www.figma.com/proto/cjzWuTTVKBqP4KaXAvcpLL/Redesign-giftcards.mk?node-id=34-5605&starting-point-node-id=34%3A5605&scaling=scale-down",
     },
     {
-      title: "Graphic Design, Illustration & Art",
+      title: "My project related illustrations and free time art",
       img: img2,
-      description: "napishi si text za tuka",
+      description: "",
       siteLink:
         "https://www.figma.com/proto/PkACjXAlYuMbMxZaIH5Hud/Illustrations-%26-Art?node-id=0-1",
     },

@@ -2,9 +2,9 @@ import React from "react";
 import { useEffect } from "react";
 import img1 from "../assets/images/cv-slika.webp";
 import img2 from "../assets/images/20240218_000844.webp";
-import img3 from "../assets/images/nordwood-themes-ubIWo074QlU-unsplash.webp";
+import img3 from "../assets/images/Journey to UX UI@72x.webp";
 import img4 from "../assets/images/ux journey section illustration.webp";
-import img5 from "../assets/images/israel-andrade-YI_9SivVt_s-unsplash.webp";
+import img5 from "../assets/images/Work Environment.webp";
 import img6 from "../assets/images/firmbee-com-SpVHcbuKi6E-unsplash.webp";
 import AboutCard from "./AboutCard";
 
